@@ -2,10 +2,10 @@ package com.chengzhx76.github.test;
 
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
+import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -50,7 +50,7 @@ public class HystrixFallback4TimeoutTest extends HystrixCommand<String> {
 
     public static class UnitTest {
 
-//        @Test
+        @Test
         public void testSynchronous() {
         	try {
         		assertEquals("fallback: Hlx", new HystrixFallback4ExceptionTest("Hlx").execute());

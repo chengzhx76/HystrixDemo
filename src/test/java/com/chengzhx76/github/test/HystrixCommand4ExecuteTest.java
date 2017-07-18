@@ -1,8 +1,8 @@
 package com.chengzhx76.github.test;
 
-import com.pingan.test.springbootdemo.hystrix.HelloWorldHystrixCommand;
 
-import static org.junit.Assert.*;
+import com.chengzhx76.github.hystrix.HelloWorldHystrixCommand;
+
 import static org.junit.Assert.assertEquals;
 
 public class HystrixCommand4ExecuteTest {

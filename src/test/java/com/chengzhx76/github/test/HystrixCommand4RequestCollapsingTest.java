@@ -1,16 +1,17 @@
 package com.chengzhx76.github.test;
 
+import com.chengzhx76.github.hystrix.HelloWorldHystrixCollapser;
 import com.netflix.hystrix.HystrixEventType;
 import com.netflix.hystrix.HystrixInvokableInfo;
 import com.netflix.hystrix.HystrixRequestLog;
 import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
-import com.pingan.test.springbootdemo.hystrix.HelloWorldHystrixCollapser;
 import org.junit.Test;
 
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * 相邻两个请求可以自动合并的前提是两者足够“近”：启动执行的间隔时间足够小，默认10ms

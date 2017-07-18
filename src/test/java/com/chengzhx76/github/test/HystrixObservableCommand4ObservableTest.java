@@ -1,10 +1,8 @@
 package com.chengzhx76.github.test;
 
-import com.pingan.test.springbootdemo.hystrix.HelloWorldHystrixObservableCommand;
+import com.chengzhx76.github.hystrix.HelloWorldHystrixObservableCommand;
 import rx.Observable;
 import rx.Observer;
-
-import static org.junit.Assert.*;
 
 
 /**

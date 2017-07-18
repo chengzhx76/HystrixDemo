@@ -1,15 +1,12 @@
 package com.chengzhx76.github.test;
 
+import com.chengzhx76.github.hystrix.HelloWorldHystrixCommand;
 import com.netflix.hystrix.*;
-import com.netflix.hystrix.HystrixCommand.Setter;
 import com.netflix.hystrix.HystrixCommandProperties.ExecutionIsolationStrategy;
-import com.pingan.test.springbootdemo.hystrix.HelloWorldHystrixCommand;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * 测试信号量隔离

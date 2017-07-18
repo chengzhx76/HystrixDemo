@@ -1,11 +1,11 @@
 package com.chengzhx76.github.test;
 
-import com.pingan.test.springbootdemo.hystrix.HelloWorldHystrixCommand;
+
+import com.chengzhx76.github.hystrix.HelloWorldHystrixCommand;
 
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 
