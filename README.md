@@ -3,3 +3,7 @@
 
 http://hot66hot.iteye.com/blog/2155036
 http://www.jianshu.com/p/b9af028efebb
+http://blog.csdn.net/super_ccc/article/details/52402873
+http://ningandjiao.iteye.com/blog/2171185
+https://github.com/dreamhead/moco
+https://github.com/xianlinbox/HystrixDemo
